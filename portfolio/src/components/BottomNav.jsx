@@ -22,7 +22,7 @@ function BottomNav () {
                 <img src={'../../public/windows95logo.svg'} className="h-8 w-12 pl-3"/>
                 <h1 className="pixel tracking-wid2st text-black text-2xl font-bold spacing">Start</h1>
               </div>
-              <div className="flex items-center justify gap-3 bg-[#C0C0C0] border-b-3 border-white border-r-3 h-11 w-100 shadow-[inset_2px_2px_2px_rgba(0,0,0,0.9)]">
+              <div className="flex items-center justify gap-3 bg-[#C0C0C0] border-b-3 border-white border-r-3 h-11 w-100 shadow-[inset_2px_2px_2px_rgba(0,0,0,0.9)] ">
               
               </div>
            </div>
