@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react';
 function BottomNav () {
 
     const [currentTime, setCurrentTime] = useState(new Date());
+    const [isToggled, setToggle] = useState(false)
 
     useEffect(() => {
       const updateTime = () => {
@@ -14,9 +15,14 @@ function BottomNav () {
       const interval = setInterval(updateTime, 60000);
       return () => clearInterval(interval); 
     }, []);
+    
+    const handleClick = () => {
+       setToggle(prev => !prev);
+       alert(isToggled)
+    };
 
     return (
-        <div className="flex justify-between items-center fixed bottom-0 w-full h-[8vh] pl-5 pr-5 bg-[#C0C0C0] border-t-4 border-white">
+        <div className="flex justify-between items-center fixed bottom-0 w-full h-[8vh] pl-5 pr-5 bg-[#C0C0C0] border-t-4 border-white" onClick={(e) => {handleClick()}}>
            <div className="flex flex-row gap-3">
               <div className="flex items-center justify gap-3 bg-[#C0C0C0] border-t-3 border-white border-l-3 h-10 w-35 shadow-[2px_2px_2px_2px_rgba(0,0,0,0.9)]">
                 <img src={'../../public/windows95logo.svg'} className="h-8 w-12 pl-3"/>

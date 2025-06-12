@@ -1,6 +1,6 @@
 function StartBar () {
     return (
-        <div className="">
+        <div className="bg-gray-300 w-100 h-100">
             
         </div>
     )
