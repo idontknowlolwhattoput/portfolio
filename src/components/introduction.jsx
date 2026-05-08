@@ -1,7 +1,7 @@
 import "../pages/index.css"
 export default function Introduction(){
     return (
-        <div className="w-full h-28 pl-9 pr-10 flex pt-3 gap-4 ">
+        <div className="w-full h-28 pl-9 pr-10 flex pt-3 gap-4">
           <div className="w-[30%] h-[80%] md:w-[30%] md:h-full  bg-black rounded-xl">
             <div className="w-[90%]  bg-black rounded-lg"></div>
           </div>
