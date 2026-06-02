@@ -9,7 +9,7 @@ export default function About() {
       <div>
         <p>
           Hi! I’m Joshua. A Full Stack senior BSIT student. I am currently
-          practicing how to build modern and scalable application with clean
+          practicing on building modern and scalable application with clean
           architecture and senior level approach in mind.
         </p>
       </div>  
