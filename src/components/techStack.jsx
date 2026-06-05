@@ -31,7 +31,7 @@ export default function TechStack(){
             {/* INDIVIDUAL STACK CONTAINER */}
             {images.map(images => (
               <div className="w-24 h-24 mt-5 flex flex-col items-center justify-center gap-1">
-                <img src={images.icon} className="w-[70%] h-[70%]"/>
+                <img src={images.icon} className="w-[45%] h-[45%]"/>
                 <p className="montserrat font-semibold">{images.text}</p>
               </div>
             ))}
